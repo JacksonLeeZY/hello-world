@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api, _, workflow
-from odoo.exceptions import ValidationError
+from openery import models, fields, api, _, workflow
+from openery.exceptions import ValidationError
 import datetime as DT
+secont modify
 # 年结/月结种类定义
 class LumiAccountPeriodEndClosingStructure(models.Model):
     _name = "lumi.account.period.end.closing.structure"
